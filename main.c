@@ -132,6 +132,7 @@ int main()
                     printf("0x%x\n|  0x%x -> 0x%x\n", addrs[i], ptchs[i*2], ptchs[i*2+1]);
             else
                 printf("value of the mem is =>0x%x\n", *buff);
+            free(buff);
         }
     }
 
